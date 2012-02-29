@@ -1,7 +1,8 @@
 CloudStack Python Client
 ========================
 
-Python client library for the CloudStack User API v2.2 (Reference : http://download.cloud.com/releases/2.2.0/api_2.2.12/TOC_Global_Admin.html). Generated using the [cloudstack-client-generator](https://github.com/jasonhancock/cloudstack-client-generator).
+Python client library for the CloudStack User API v3.0.0. For older versions,
+see the [tags](https://github.com/jasonhancock/cloudstack-python-client/tags).
 
 Examples
 --------
