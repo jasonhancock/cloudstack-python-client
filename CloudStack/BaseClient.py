@@ -22,7 +22,7 @@ class BaseClient(object):
         keys = sorted(args.keys())
 
         for k in keys:
-            params.append(k + '=' + urllib.quote_plus(args[k])) 
+            params.append(k + '=' + urllib.quote_plus(args[k]).replace("+", "%20"))
        
         query = '&'.join(params)
 
